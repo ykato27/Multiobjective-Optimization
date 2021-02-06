@@ -5,25 +5,26 @@
 ```
 .
 ├── README.md                 READMEファイル
+├── .dockerignore        
 ├── Dockerfile                Dockerファイル
+├── docker-compose.yml
 └── notebook                  jupyter notebook
 ```
 
 ## 環境構築
-Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Multiobjective_Optimization）
+
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Multiobjective_Optimization）
 ```
 cd Desktop/Multiobjective_Optimization
 ```
-Dockerによる環境構築
+
+* Dockerによる環境構築（フォルダをマウント：Desktop/Multiobjective_Optimization）
 ```
-docker build .
+docker-compose up --build
 ```
-docker run実行（対象フォルダをマウントする／例：Desktop/Multiobjective_Optimization）
-```
-docker run -p 8888:8888 -v ~/Desktop/Multiobjective_Optimization/:/work --name Multiobjective_Optimization <docker image>
-```
-ブラウザーを立ち上げてlocalhost:8888へアクセス
-workフォルダ内が対象フォルダにマウントされている
+
+* ブラウザーを立ち上げてlocalhost:8888へアクセス
+* ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
 * NSGA_2_deep.ipynb : 多目的最適化(NSGA-2)のnotebook

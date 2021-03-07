@@ -1,4 +1,4 @@
-# Multiobjective_Optimization
+# Multiobjective-Optimization
 * 多目的最適化のプログラム
 
 ## リポジトリ構成
@@ -13,9 +13,9 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Multiobjective_Optimization）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Multiobjective-Optimization）
 ```
-cd Desktop/Multiobjective_Optimization
+cd Desktop/Multiobjective-Optimization
 ```
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Multiobjective_Optimization）

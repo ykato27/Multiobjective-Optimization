@@ -20,7 +20,7 @@ cd Desktop/Multiobjective-Optimization
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Multiobjective_Optimization）
 ```
-docker-compose up --build
+docker-compose up
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス

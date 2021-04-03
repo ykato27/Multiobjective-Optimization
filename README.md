@@ -27,8 +27,19 @@ docker-compose up --build
 * ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* NSGA_2_deep.ipynb : 多目的最適化(NSGA-2)のnotebook
-* NSGA_3_deep.ipynb : 多目的最適化(NSGA-3)のnotebook
+* NSGA-2-deep.ipynb : 遺伝的アルゴリズム/NSGA-2（deap）のnotebook
+* NSGA-3-deep.ipynb : 遺伝的アルゴリズム/NSGA-2（deap）のnotebook
+* MOPSO-deap.ipynb : 粒子群最適化/MOPSO（deap）のnotebook
+* NSGA-2-pymoo.ipynb : 遺伝的アルゴリズム/NSGA-2（pymoo）のnotebook
+* NSGA-3-pymoo.ipynb : 遺伝的アルゴリズム/NSGA-3（pymoo）のnotebook
+* R-NSGA-2-pymoo.ipynb : 遺伝的アルゴリズム/R-NSGA-2（pymoo）のnotebook
+* R-NSGA-3-pymoo.ipynb : 遺伝的アルゴリズム/R-NSGA-3（pymoo）のnotebook
+* C-TAEA-pymoo.ipynb : C-TAEA（pymoo）のnotebook
+* MOEAD-pymoo.ipynb : MOEAD（pymoo）のnotebook
+
+## ライブラリー情報
+* [deap](https://github.com/DEAP/deap)
+* [pymoo](https://github.com/msu-coinlab/pymoo)
 
 ## 参考文献
 * NSGA_2_deep : [http://repository.ias.ac.in/83498/1/2-a.pdf](http://repository.ias.ac.in/83498/1/2-a.pdf)

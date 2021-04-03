@@ -8,6 +8,7 @@
 ├── .dockerignore        
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
+├── requirements.txt          requirementsファイル
 └── notebook                  jupyter notebook
 ```
 
@@ -36,10 +37,12 @@ docker-compose up --build
 * R-NSGA-3-pymoo.ipynb : 遺伝的アルゴリズム/R-NSGA-3（pymoo）のnotebook
 * C-TAEA-pymoo.ipynb : C-TAEA（pymoo）のnotebook
 * MOEAD-pymoo.ipynb : MOEAD（pymoo）のnotebook
+* physbo.ipynb : 多目的ベイズ最適化（physbo）のnotebook
 
 ## ライブラリー情報
 * [deap](https://github.com/DEAP/deap)
 * [pymoo](https://github.com/msu-coinlab/pymoo)
+* [physbo](https://github.com/issp-center-dev/PHYSBO)
 
 ## 参考文献
 * NSGA_2_deep : [http://repository.ias.ac.in/83498/1/2-a.pdf](http://repository.ias.ac.in/83498/1/2-a.pdf)

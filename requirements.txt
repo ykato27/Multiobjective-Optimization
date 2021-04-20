@@ -18,3 +18,4 @@ deap
 pymoo
 pymop
 physbo
+optuna

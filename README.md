@@ -10,6 +10,10 @@
 ├── docker-compose.yml
 ├── requirements.txt          requirementsファイル
 └── notebook                  jupyter notebook
+ ├── deap
+ ├── optuna
+ ├── physbo
+ └── phmoo
 ```
 
 ## 環境構築
@@ -38,6 +42,8 @@ docker-compose up --build
 * C-TAEA-pymoo.ipynb : C-TAEA（pymoo）のnotebook
 * MOEAD-pymoo.ipynb : MOEAD（pymoo）のnotebook
 * physbo.ipynb : 多目的ベイズ最適化（physbo）のnotebook
+* optuna_real.ipynb : 遺伝的アルゴリズム/NSGA-2（optuna）のnotebook
+* optuna_real-discrete.ipynb : 遺伝的アルゴリズム/NSGA-2（optuna）のnotebook
 
 ## ライブラリー情報
 * [deap](https://github.com/DEAP/deap)

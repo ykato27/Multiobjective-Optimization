@@ -23,7 +23,7 @@
 cd Desktop/Multiobjective-Optimization
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/Multiobjective_Optimization）
+* Dockerによる環境構築（フォルダをマウント：Desktop/Multiobjective-Optimization）
 ```
 docker-compose up --build
 ```
@@ -42,13 +42,14 @@ docker-compose up --build
 * C-TAEA-pymoo.ipynb : C-TAEA（pymoo）のnotebook
 * MOEAD-pymoo.ipynb : MOEAD（pymoo）のnotebook
 * physbo.ipynb : 多目的ベイズ最適化（physbo）のnotebook
-* optuna_real.ipynb : 遺伝的アルゴリズム/NSGA-2（optuna）のnotebook
-* optuna_real-discrete.ipynb : 遺伝的アルゴリズム/NSGA-2（optuna）のnotebook
+* optuna-real.ipynb : 遺伝的アルゴリズム/NSGA-2（optuna）のnotebook
+* optuna-real-discrete.ipynb : 遺伝的アルゴリズム/NSGA-2（optuna）のnotebook
 
 ## ライブラリー情報
 * [deap](https://github.com/DEAP/deap)
 * [pymoo](https://github.com/msu-coinlab/pymoo)
 * [physbo](https://github.com/issp-center-dev/PHYSBO)
+* [optuna](https://github.com/optuna/optuna)
 
 ## 参考文献
 * NSGA_2_deep : [http://repository.ias.ac.in/83498/1/2-a.pdf](http://repository.ias.ac.in/83498/1/2-a.pdf)

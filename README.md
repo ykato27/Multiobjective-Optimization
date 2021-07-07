@@ -4,16 +4,50 @@
 ## リポジトリ構成
 ```
 .
-├── README.md                 READMEファイル
-├── .dockerignore        
-├── Dockerfile                Dockerファイル
+├── Dockerfile
+├── README.md
+├── data
+├── docker
+│   ├── deap
+│   │   ├── Dockerfile
+│   │   └── requirements_deap.txt
+│   ├── optuna
+│   ├── physbo
+│   ├── pymoo
+│   └── requirements.txt
+├── docker-compose-deap.yml
 ├── docker-compose.yml
-├── requirements.txt          requirementsファイル
-└── notebook                  jupyter notebook
- ├── deap
- ├── optuna
- ├── physbo
- └── phmoo
+├── docs
+│   ├── Multi-Optimization.md
+│   └── Multi-Optimization.pdf
+├── models
+├── notebooks
+│   ├── deap
+│   │   ├── MOPSO-deap.ipynb
+│   │   ├── NSGA-2-deap.ipynb
+│   │   └── NSGA-3-deap.ipynb
+│   ├── optuna
+│   │   ├── optuna-real-discrete.ipynb
+│   │   ├── optuna-real.ipynb
+│   │   ├── pareto_data_real-discrete.csv
+│   │   ├── pareto_data_real.csv
+│   │   ├── pareto_graph_real-discrete.png
+│   │   └── pareto_graph_real.png
+│   ├── physbo
+│   │   └── physbo.ipynb
+│   └── pymoo
+│       ├── C-TAEA-pymoo.ipynb
+│       ├── MOEAD-pymoo.ipynb
+│       ├── NSGA-2-pymoo.ipynb
+│       ├── NSGA-3-pymoo.ipynb
+│       ├── R-NSGA-2-pymoo.ipynb
+│       └── R-NSGA-3-pymoo.ipynb
+├── pyproject.toml
+├── requirements.txt
+├── setup.cfg
+├── src
+├── tests
+└── work
 ```
 
 ## 環境構築
@@ -25,7 +59,7 @@ cd Desktop/Multiobjective-Optimization
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Multiobjective-Optimization）
 ```
-docker-compose up --build
+docker-compose -f docker-compose-{*構築対象}.yml up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス

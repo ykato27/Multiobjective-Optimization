@@ -12,11 +12,19 @@
 │   │   ├── Dockerfile
 │   │   └── requirements_deap.txt
 │   ├── optuna
+│   │   ├── Dockerfile
+│   │   └── requirements_optuna.txt
 │   ├── physbo
+│   │   ├── Dockerfile
+│   │   └── requirements_physbo.txt
 │   ├── pymoo
+│   │   ├── Dockerfile
+│   │   └── requirements_pymoo.txt
 │   └── requirements.txt
 ├── docker-compose-deap.yml
-├── docker-compose.yml
+├── docker-compose-optuna.yml
+├── docker-compose-physbo.yml
+├── docker-compose-pymoo.yml
 ├── docs
 │   ├── Multi-Optimization.md
 │   └── Multi-Optimization.pdf
